@@ -9,7 +9,7 @@ import collection_func as cf
 # edit this file however you see fit. If it suits you to make changes to it for your work. Do so.
 
 # set the name for the collection
-collection_name = 'DeeManz'
+collection_name = 'Collection'
 
 app = Flask(__name__)
 
