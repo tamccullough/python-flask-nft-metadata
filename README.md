@@ -22,7 +22,7 @@ Create a virtualenv with Python3
 
 run `pip install --upgrade pip`
 
-run `pip install -r requirements.txt`.
+run `pip install -r requirements.txt`
 
 ## Running and Testing
 
