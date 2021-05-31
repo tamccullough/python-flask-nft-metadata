@@ -5,8 +5,10 @@ Python Metadata API for OpenSea Creatures
 [OpenSea Metadata API Python](https://github.com/ProjectOpenSea/metadata-api-python)
 
 ### About
-It is still a;
-Very simple sample Python Flask app for serving the ERC721 metadata for a collection of items.
+
+It is still a...
+
+very simple sample Python Flask app for serving the ERC721 metadata for a collection of items.
 
 ## Requirements
 
