@@ -28,8 +28,14 @@ def item(token_id):
     # taking the
     attributes = []
     for i in item.keys():
-        if i in ['name','image']: # pass any column you have created that should not be an attribute
+        if i in ['image']: # pass any column you have created that should not be an attribute
             pass
+        elif i == 'name':
+            attribute = {
+                'trait_type':i,
+                'value': item[i] # using the dictionary found in collection_func get the appropriate strings
+            }
+            attributes.append(attribute)
         else:
             attribute = {
                 'trait_type':i,
@@ -39,7 +45,7 @@ def item(token_id):
 
     # using Flask jsonify to pass the selected data as json file format
     return jsonify({
-        'name': item['name'],
+        'name': f'{collection_name.lower()} #{token_id+1}',
         'external_url': f'{url_path}{token_id}',
         'image': f'{url_path}image/{token_id}',
         'description': f'{collection_name} that enjoys spreading the power of the Dark Lord.',
