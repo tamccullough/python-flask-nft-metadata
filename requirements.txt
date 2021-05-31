@@ -1,0 +1,11 @@
+click
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+numpy
+pandas
+pytz
+six
+Werkzeug
