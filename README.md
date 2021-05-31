@@ -25,7 +25,8 @@ run `pip install -r requirements.txt`.
 ## Running and Testing
 
 Run the API with `python app.py` and hit http://localhost:5000/0
-depending on the size of your collection - you would change the number after the last / to go to it
+depending on the size of your collection
+you would change the number after the last / to go to it
 http://localhost:5000/1 or http://localhost:5000/56
 
 ## Deploying
