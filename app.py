@@ -45,7 +45,7 @@ def item(token_id):
 
     # using Flask jsonify to pass the selected data as json file format
     return jsonify({
-        'name': f'{collection_name.lower()} #{token_id+1}',
+        'name': f'{collection_name} #{token_id+1}',
         'external_url': f'{url_path}{token_id}',
         'image': f'{url_path}image/{token_id}',
         'description': f'{collection_name} that enjoys spreading the power of the Dark Lord.',
