@@ -12,9 +12,13 @@ very simple sample Python Flask app for serving the ERC721 metadata for a collec
 
 But now, it is more generic and it doesn't require any google authorization to save the files.
 
-While OpenSea recommends 350x350px images and you could certainly store a lot more at that size, my images are larger at 2048x2048px and I exceed the soft storage limit of 300MB with 409 images.
+### Note
 
-So I am in the process of linking to storage with IPFS, and with that, only the .csv file would be stored on this slug.
+While OpenSea recommends 350x350px images - and you could certainly store a lot more at that size -
+
+my images are larger at 2048x2048px and I exceed Heroku's soft storage limit of 300MB with 409 images.
+
+So I am in the process of linking to storage with IPFS, and with that, only the .csv file would be stored in the Heroku slug.
 
 You could always implement it yourself, and remix this repo.
 
