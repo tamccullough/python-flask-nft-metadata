@@ -1,6 +1,8 @@
 ## This is a Remix of the following
-## Python Metadata API for OpenSea Creatures
-found here [OpenSea Metadata API Python](https://github.com/ProjectOpenSea/metadata-api-python)
+
+Python Metadata API for OpenSea Creatures
+
+[OpenSea Metadata API Python](https://github.com/ProjectOpenSea/metadata-api-python)
 
 ### About
 It is still a;
