@@ -1,26 +1,10 @@
 ## This is a Remix of the following
 
-Python Metadata API for OpenSea Creatures
-
-[OpenSea Metadata API Python](https://github.com/ProjectOpenSea/metadata-api-python)
+Python Metadata API for NFT collectibles
 
 ### About
 
-It is still a...
-
-very simple sample Python Flask app for serving the ERC721 metadata for a collection of items.
-
-But now, it is more generic and it doesn't require any google authorization to save the files.
-
-### Note
-
-While OpenSea recommends 350x350px images - and you could certainly store a lot more at that size -
-
-my images are larger at 2048x2048px and I exceed Heroku's soft storage limit of 300MB with 409 images.
-
-So I am in the process of linking to storage with IPFS, and with that, only the .csv file would be stored in the Heroku slug.
-
-You could always implement it yourself, and remix this repo.
+A very simple Python Flask app for serving the metadata for a collection of items.
 
 ## Requirements
 
